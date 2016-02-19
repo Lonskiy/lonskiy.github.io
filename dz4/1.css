@@ -1,0 +1,20 @@
+div {
+    font: 16px economica, bold;
+    color: #fff;
+
+    display: inline-block;
+
+    width: 900px;
+    height: 40px;
+    margin: 30px;
+
+
+    vertical-align: bottom;
+
+    background: blueviolet;
+}
+span {
+    padding-left: 30px;
+    padding-top: 10px;
+    display: inline-block;
+}

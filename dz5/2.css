@@ -1,0 +1,44 @@
+div.base {
+    background: #ffa52a;
+    border-radius: 2%;
+    height: 470px;
+    width: 300px;
+    position: fixed;
+    border: 5px solid;
+    border-color: rgba(220, 220, 220, 0.5);
+
+
+}
+div.first {
+    background: #ffa52a;
+    font: 20px impact bold;
+    color: white;
+    position: fixed;
+    border-radius: 2%;
+    width: 300px;
+    height: 80px;
+    text-align: center;
+    padding-top: 30px;
+
+}
+div.second {
+    background: white;
+    width: 290px;
+    height: 385px;
+    position: absolute;
+    -top: 0;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+}
+div.title {
+    background: #a2ffdd;
+    height: 60px;
+    text-align: center;
+    -padding-top: 30px;
+    -position: relative;
+    -bottom: 0;
+}
+span.two {
+    font: 55px impact bold;
+}

@@ -1,26 +1,26 @@
 ul {
     font: 16px economica, bold;
     color: #fff;
-
-   -width: 900px;
-background-attachment: fixed;
-
-
-
+    width: 900px;
+    background-attachment: fixed;
     vertical-align: middle;
-
     background: blueviolet;
+    -left:50%;
+    -float:left;
+
 }
 .header li {
-
+    border: hidden;
     padding: 10px 10px;
-
+    border-radius: 20%;
     display: inline-block;
+    -width: 900px;
 }
 .header li:hover {
     background: gainsboro;
     color: black;
     font-weight: bold;
+    position: relative;
 }
 .float {
 
@@ -60,4 +60,12 @@ div ul {
 div {
     -position: absolute;
     margin-top: 700px;
+}
+ul.header li ul {
+    display: none;
+}
+ul.header li:hover > ul {
+    position: absolute;
+    display: inline-block;
+    width: 900px;
 }

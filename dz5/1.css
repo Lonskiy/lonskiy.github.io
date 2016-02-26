@@ -1,0 +1,33 @@
+body {
+    background: #a2ffdd;
+}
+div {
+    background: #6dc4ff;
+    font: 16px economica, bold;
+    background-attachment: fixed;
+    vertical-align: middle;
+}
+ul {
+    width: 900px;
+}
+
+.header li {
+    border: hidden;
+    padding: 10px 10px;
+    border-radius: 20%;
+    display: inline-block;
+    position: relative;
+}
+ul.header li:hover {
+    background: #a7b3b7;
+
+}
+ul.header li ul {
+    display: none;
+}
+ul.header li:hover > ul {
+    position: absolute;
+    display: inline-block;
+    background: #eeeeee;
+    width: 900px;
+}

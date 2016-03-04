@@ -6,6 +6,10 @@ div.base {
     position: fixed;
     border: 5px solid;
     border-color: rgba(220, 220, 220, 0.5);
+    left: 50%;
+    top: 50%;
+    margin-left: -150px;
+    margin-top: -235px;
 
 
 }
@@ -18,45 +22,72 @@ div.first {
     width: 300px;
     height: 80px;
     text-align: center;
-    padding-top: 30px;
+    line-height: 80px;
 
 }
 div.second {
     background: white;
     width: 290px;
-    height: 385px;
+    height: 390px;
     position: absolute;
-    -top: 0;
+
     left: 5px;
     right: 5px;
     bottom: 5px;
 }
+
 div.title {
     background: #a2ffdd;
     height: 60px;
     text-align: center;
-    -padding-top: 30px;
-    -position: relative;
-    -bottom: 0;
+   line-height: 60px;
 }
+div.sup {
+     height: 100px;
+    -background: antiquewhite;
+    text-align: center;
+    position: fixed;
+    width: 290px;
+
+ }
 span.one {
-    background: #ffa52a;
+    -background: #ffa52a;
     display: inline-block;
     height: 56px;
-    width: 70px;
-    vertical-align: text-top;
+    width: 35%;
+    -vertical-align: text-top;
+    position: absolute;
+    top: 25%;
+    left: 0;
+    vertical-align: middle;
+    text-align: right;
+
+
 }
 span.two {
     font: 55px impact bold;
-    background: aqua;
+    -background: white;
     display: inline-block;
     height: 56px;
-    width: 70px;
+    width: 30%;
+    -margin-top: 25%;
+    position: absolute;
+    top: 25%;
+    left: 35%;
 }
 span.three {
-    background: antiquewhite;
+    -background: white;
     display: inline-block;
-    height: 56px;
-    width: 70px;
-    vertical-align: text-bottom;
+    height: 16px;
+    width: 35%;
+    position: absolute;
+    top: 65%;
+    right: 0%;
+    vertical-align: bottom;
+    text-align: justify;
+}
+.spisok {
+    position: relative;
+    top: 100px;
+    list-style-type: none;
 }

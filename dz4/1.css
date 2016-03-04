@@ -1,26 +1,42 @@
-ul {
+.menu {
+
+    background: blueviolet;
+    margin-top: 20px;
+}
+.header {
     font: 16px economica, bold;
     color: #fff;
     width: 900px;
-    background-attachment: fixed;
-    vertical-align: middle;
+    list-style-type: none;
     background: blueviolet;
-    -left:50%;
-    -float:left;
 
+    margin: 0 auto;
+    padding: 0;
 }
 .header li {
-    border: hidden;
-    padding: 10px 10px;
-    border-radius: 20%;
+
     display: inline-block;
-    -width: 900px;
+    border-radius: 20%;
+    border: hidden;
 }
-.header li:hover {
+.menu_link {
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+
+    padding: 10px 10px;
+
+}
+.menu_item:hover {
     background: gainsboro;
     color: black;
     font-weight: bold;
-    position: relative;
+    -position: relative;
+}
+.float:hover {
+    background: gainsboro;
+    color: black;
+    font-weight: bold;
 }
 .float {
 
@@ -33,6 +49,8 @@ body {
             linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
             linear-gradient(#eee .1em, transparent .1em);
     background-size: 100% 1.2em;
+    margin: 0;
+    padding:0;
 }
 div ul {
     background: gainsboro;
